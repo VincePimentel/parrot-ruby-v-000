@@ -3,4 +3,7 @@
 
 def parrot(phrase = "Squawk!")
   puts "#{phrase}"
+  if phrase.length = 0
+    return "Squawk!"
+  end
 end
